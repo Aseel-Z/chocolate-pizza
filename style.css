@@ -1,0 +1,27 @@
+header nav article h1 {
+    font-family:"Yellowtail";
+    font-weight: lighter;
+    font-style: normal;
+}
+main p {
+    font-family:sans-serif;
+    font-weight: lighter;
+    font-style: normal;
+}
+ul {
+ list-style-type: none;
+ background-image: url('img/list-bg.png');
+ background-image;
+ float: left;
+}
+
+/* #list1 {
+    position: absolute;
+}
+#list2 {
+    position: absolute;
+} */
+
+.
+
+
