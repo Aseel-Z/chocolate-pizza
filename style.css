@@ -136,11 +136,28 @@ main p{
 /* last section style */
 #last-section {
 position: relative;
-margin-top: 2em;
-    margin-left: 4em;
+margin-top: 1.2em;
+margin-left: 4em;
+margin-bottom: 5.5em;
 }
 
-section div p {
+#Vanessa-bio {
+    margin-left: 5.5em;
+    margin-top: .5em;
+    display: inline-block;
+} 
+
+
+#Vanessa-bio p:nth-of-type(1) {
+    font-family:"Roborto:700",sans-serif;
+    font-weight:bolder;
+    font-style: normal;
+    color:black;
+    text-align:justify;
+    margin-bottom: .7em;
+}
+
+#Vanessa-bio p:nth-of-type(2){
     font-family:"Roborto:700",sans-serif;
     font-weight:lighter;
     font-style: normal;
@@ -148,22 +165,54 @@ section div p {
     margin-bottom: -4em;
     margin-left: 0;
     text-align:justify;
-    display: inline-block;
 }
-div h3 {
-    font-family:"Roborto:700",sans-serif;
-    font-weight:bolder;
-    font-style: normal;
-    color:black;
-    /* margin-bottom: -4em; */
-    margin-left: 4.5em;
-    text-align:justify;
-    display: inline-block;
+button {
+margin-left: 57.9em;
+font-size: .75em;
+font-weight: lighter;
+color: white;
+background-color: rgb(145, 68, 68);
+height: 4em;
+width: 13em;
+
 }
 #last-section img{
     margin-bottom: -4.5em;
 }
 
-#last-section a {
-    margin-left: 49em;
+/* footer style */
+ main footer { 
+    position: absolute;
+    display: inline-block;
+    margin-top: 7em;
+    margin-left: 4em;
+} 
+
+footer section p:nth-of-type(1){
+    margin-bottom: .7em;
+    margin-top: 3em;
+    }
+
+footer section:nth-of-type(2){
+    font-size: .7em;
+    text-align: center;
+    font-weight: lighter;
+    opacity: .8;
+    color: grey;
+    margin-bottom: 2em;
+    }
+    
+footer section img {
+left: 50%;
+position: relative;
+margin-top: -5em;
 }
+
+footer section hr
+{
+    opacity: 0.3;
+    position: relative;
+    width: 59.5em;
+    margin-top: 0em;
+    margin-left: 4em;
+} 
