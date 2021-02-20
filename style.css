@@ -1,27 +1,169 @@
+html{
+    width: 1000px;
+}
+
+/* upper bar style */
+body header{
+    margin-top: 2em;
+    margin-left: 4em;
+    position: relative;  
+}
+body header nav div{
+    margin-left: 45em;
+}
+header nav article {
+    display: inline-block;
+}
 header nav article h1 {
     font-family:"Yellowtail";
-    font-weight: lighter;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 2.4em;
+    margin-top: -0.5em;
+    margin-left: 0.1em;
+
+}
+header nav article p{
+    font-family:'IBM Plex Mono', monospace;
+    font-size: 0.7em;
+    letter-spacing: -0.4px;
     font-style: normal;
 }
-main p {
-    font-family:sans-serif;
-    font-weight: lighter;
+
+.backslash-break
+{
+    height: 12px;
+    /* border: solid 0px white; */
+    background-image: linear-gradient(45deg, #000000 16.67%, #fff 16.67%, #fff 50%, #000000 50%, #000000 66.67%, #fff 66.67%, #fff 100%);
+    background-size: 4.2px 4.2px;
+    opacity: 0.29;
+    margin-top: 2em;
+}
+
+header nav div a{
+    margin-left: 0;
+    margin-right: -.15em;
+    }
+
+#extraMargin{
+    margin-left: .4em; 
+}
+
+/* chocolate pizza style */
+main section {
+    margin-top: 2em;
+    margin-left: 4em;  
+}
+main section h1 {
+    font-family:'Pathway Gothic One';
+    font-style:normal;
+    font-size: 2.2em;
+    margin-bottom: -0.7em;
+    font-weight:900;
+    letter-spacing: 0.01em;
+}
+main section p {
+    margin-top: 2.5em;
+    display: inline-block;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.6em;
+    opacity: 0.4;
+    letter-spacing: -.09em;
+}
+main section img {
+    display: inline-block;
+    margin-left: 45.6em;
+}
+
+/* list styling */
+main article {
+position: relative;
+font-family:"Patrick Hand";
+color:black;
+font-weight:lighter;
+font-style: normal;
+text-align: left;
+font-size: 1.1em;
+list-style-type: none;
+margin-top: 2em;
+margin-left: 4em;
+}
+
+main article div{
+    position: absolute;
+    margin-top: -15.31em;
+    margin-left: 3em;
+    opacity: 0.7;
+}
+#second-list{
+    display: inline-block;
+    margin-left: 20em;
+    margin-top: -9.9em;
+    float: right;
+}
+ul li{
+    margin-top: .5em;
+    margin-bottom: .4em;
+}
+
+
+
+
+/* paragraphs style */
+
+#paragraphs {
+    font-family:"Roborto:700",sans-serif;
+    font-weight:lighter;
     font-style: normal;
-}
-ul {
- list-style-type: none;
- background-image: url('img/list-bg.png');
- background-image;
- float: left;
+    color:gray;
+    margin-top: 2em;
+    margin-left: 4em;
+    text-align:justify;
 }
 
-/* #list1 {
-    position: absolute;
+main p{
+    margin-top: .5em;
+    margin-bottom: 1em;
 }
-#list2 {
-    position: absolute;
-} */
 
-.
+/* pizz image style */
+#pizza {
+    text-align: center;
+    margin-top: 2em;
+    margin-left: 4em;
+}
 
+/* last section style */
+#last-section {
+position: relative;
+margin-top: 2em;
+    margin-left: 4em;
+}
 
+section div p {
+    font-family:"Roborto:700",sans-serif;
+    font-weight:lighter;
+    font-style: normal;
+    color: rgb(87, 78, 78);
+    margin-bottom: -4em;
+    margin-left: 0;
+    text-align:justify;
+    display: inline-block;
+}
+div h3 {
+    font-family:"Roborto:700",sans-serif;
+    font-weight:bolder;
+    font-style: normal;
+    color:black;
+    /* margin-bottom: -4em; */
+    margin-left: 4.5em;
+    text-align:justify;
+    display: inline-block;
+}
+#last-section img{
+    margin-bottom: -4.5em;
+}
+
+#last-section a {
+    margin-left: 49em;
+}
